@@ -4,6 +4,8 @@ title:  "Github Pages & 123-Reg DNS"
 date:   2015-01-08 15:04
 categories:
 - blog
+- misc
+comments: true
 description: Configuring DNS with 123-reg for GitHub Pages
 ---
 
