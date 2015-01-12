@@ -5,6 +5,7 @@ date:   2015-01-12 12:00:00
 categories:
 - blog
 - virtual-reality
+comments: true
 description: Virtual reality is a young technology but is developing fast and can create highly immerse experiences that companies can leverage to engage their customer base further
 ---
 
