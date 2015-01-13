@@ -11,7 +11,7 @@ description: Virtual reality is a young technology but is developing fast and ca
 
 The first encounter I had with the [Oculus Rift][] was at a company exploring how to combine it with the XBox Connect.  I'd always thought virtual reality was cool, but that it was a bit of a toy, something to pass a few minutes, not a serious way of delivering digital content to the masses.  But, one of the demos I saw that day totally changed my view on how important virtual reality is going to be in the future.  
 
-The first demo was using an XBox Connect to allow you to control an in game avatar by simply moving around, while the Oculus headset provided the view into a 360° virtual world, it was crude, but awesome, very engaging.  
+The first demo was using an XBox Kinect to allow you to control an in game avatar by simply moving around, while the Oculus headset provided the view into a 360° virtual world, it was crude, but awesome, very engaging.  
 
 The second was demoing some work by [Infinite Realities][] showing a collection of 3D models of people captured using a high res photogrammetry rig.  It really was incredible!  I was astounded that I could perceive the distance between the tip of the nose and the top lip of one of the models.  I'd never had such a high fidelity, immerse and realistic computing experience.
 
