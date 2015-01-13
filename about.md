@@ -10,6 +10,8 @@ I currently work for [UST Global][ust] a global consultancy helping brands acros
 
 My current focus is mobile solutions and their related technologies, but I'm interested in anything digital that's changing the way people live their lives.
 
+I'm also working on a startup, [Huwun][], which is due to launch really soon. 
+
 
 ### Contact me
 
@@ -21,3 +23,4 @@ If you want to get in touch, I'd love to hear from you.  Find me on [Google+][go
 [LinkedIn]: https://uk.linkedin.com/pub/ben-day/17/b99/17b/
 [ust]: http://www.ust-global.com/en/
 [twitter]: https://twitter.com/ben__day
+[Huwun]: https://www.huwun.com "Huwun"
