@@ -9,7 +9,7 @@ comments: true
 description: Virtual reality is a young technology but is developing fast and can create highly immerse experiences that companies can leverage to engage their customer base further
 ---
 
-The first encounter I had with the [Oculus Rift][] was at a company exploring how to combine it with the XBox Connect.  I'd always thought virtual reality was cool, but that it was a bit of a toy, something to pass a few minutes, not a serious way of delivering digital content to the masses.  But, one of the demos I saw that day totally changed my view on how important virtual reality is going to be in the future.  
+The first encounter I had with the [Oculus Rift][] was at a company exploring how to combine it with the XBox Kinect.  I'd always thought virtual reality was cool, but that it was a bit of a toy, something to pass a few minutes, not a serious way of delivering digital content to the masses.  But, one of the demos I saw that day totally changed my view on how important virtual reality is going to be in the future.  
 
 The first demo was using an XBox Kinect to allow you to control an in game avatar by simply moving around, while the Oculus headset provided the view into a 360° virtual world, it was crude, but awesome, very engaging.  
 
