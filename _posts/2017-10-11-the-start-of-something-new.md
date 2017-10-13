@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The start of something new"
+title:  "The Start of Something New"
 date:   2017-10-13
 categories:
 - blog
