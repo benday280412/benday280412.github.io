@@ -1,0 +1,26 @@
+{% if site.addthis %}
+<!-- Addthis -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59f6f3a3238ddf96"></script>
+<script type="text/javascript">
+
+var addthis_share = addthis_share || {}
+addthis_share = {
+  passthrough : {
+    twitter: {
+      via: "ben__day"
+    }
+  },
+  url_transforms : {
+    shorten: {
+      twitter: 'bitly'
+    }
+  },
+  shorteners : {
+    bitly : {}
+  }
+}
+
+
+</script>
+<!-- End Addthis -->
+{% endif %}
