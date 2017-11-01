@@ -1,0 +1,75 @@
+<div id="subscriber-div">
+	<div class="title-message">
+		<h3>Don't miss out on loads of great content</h3>
+	</div>
+	<form id="subscribe-form" data-abide novalidate>
+	  <div class="grid-container">
+	    <div class="grid-x grid-padding-x">
+	      <div class="medium-5 small-12 cell">
+					<label>
+	          <input name="name" type="text" placeholder="First name..." required pattern="alpha">
+						<span class="form-error">
+							A first name would be great
+						</span>
+					</label>
+	      </div>
+	      <div class="medium-5 small-12 cell">
+					<label>
+	          <input name="email" type="text" placeholder="Email..." required pattern="email">
+						<span class="form-error">
+							We're going to need a valid email
+						</span>
+					</label>
+	      </div>
+				<div class="medium-2 small-12 cell">
+					<input type="hidden" name="campaign_token" value="4uId4" />
+					<input  class="button" type="submit" value="Subscribe"/>
+				</div>
+				<div class="medium-12 cell">
+					<div id="message" />
+				</div>
+	    </div>
+	  </div>
+	</form>
+</div>
+
+
+
+<script>
+	let $form = $('#subscribe-form');
+
+$(document).on("submit", function(ev) {
+    ev.preventDefault();
+
+		replaceMessage("");
+
+		$.ajax({
+			type: 'POST',
+			url: 'https://zzx03gva3c.execute-api.eu-west-2.amazonaws.com/dev/subscribe',
+			crossDomain: true,
+			data: $form.serialize(),
+			dataType: 'json',
+			headers: {'x-api-key':'XuQ17JzFBY9GRJq7DiFqr4IETKDPDaD1HvHIByy8'},
+			success: function(responseData, textStatus, jqXHR) {
+				if(responseData.code === 0){
+					$("#subscribe-form :input").prop("disabled", true);
+					replaceMessage("You've been added to our list, check your mail to confirm this");
+				}
+			},
+			error: function (responseData, textStatus, errorThrown) {
+				if(responseData.responseJSON.code === 1008){
+					$("#subscribe-form :input").prop("disabled", true);
+					replaceMessage("Hey looks like you're already subscribed, awesome");
+				} else {
+					replaceMessage("Hmm, somethings not quite right, maybe try it again");
+				}
+			}
+		});
+  }).on("forminvalid.zf.abide", function(ev,frm) {
+    replaceMessage("");
+  });
+
+	function replaceMessage(message){
+		$('#message').replaceWith("<div id=\"message\">" + message + "</div>");
+	}
+</script>

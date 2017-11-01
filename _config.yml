@@ -42,6 +42,8 @@ google_analytics: UA-57818218-1
 # Enter addthis profile id
 addthis: ra-59f6f3a3238ddf96
 
+foundation: true
+
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.benjaminday.co.uk
