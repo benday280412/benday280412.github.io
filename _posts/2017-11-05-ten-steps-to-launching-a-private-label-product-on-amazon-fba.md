@@ -104,7 +104,7 @@ So, get researching, find the next killer product and just make a start!
 [3]: https://services.amazon.co.uk/services/fulfilment-by-amazon/features-benefits.html "Amazon FBA"
 [4]: https://tradeassurance.alibaba.com/ "Alibaba Trade Assurance"
 [5]: https://www.fiverr.com "Fiverr"
-[6]: https://99designs.co.uk/ "99Designs"
+[6]: http://bit.ly/2zg42y9 "99Designs"
 [7]: https://www.amazon.com/gp/help/customer/display.html/?nodeId=200243250 "FBA Packaging Requirements"
 [8]: https://www.freightos.com/ "FreightOS"
 [9]: https://www.flexport.com/ "Flexport"
