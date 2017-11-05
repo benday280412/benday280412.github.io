@@ -1,7 +1,5 @@
 <div id="subscriber-div">
-	<div class="title-message">
-		<h3>Don't miss out on loads of great content</h3>
-	</div>
+	<h3 class="title-message">{{ include.title }}</h3>
 	<form id="subscribe-form" data-abide novalidate>
 	  <div class="grid-container">
 	    <div class="grid-x grid-padding-x">
@@ -22,8 +20,8 @@
 					</label>
 	      </div>
 				<div class="medium-2 small-12 cell">
-					<input type="hidden" name="campaign_token" value="4uId4" />
-					<input  class="button" type="submit" value="Subscribe"/>
+					<input type="hidden" name="campaign_token" value="{{ include.campaign_token }}" />
+					<input  class="button expanded" type="submit" value="Subscribe"/>
 				</div>
 				<div class="medium-12 cell">
 					<div id="message" />
@@ -53,7 +51,7 @@ $(document).on("submit", function(ev) {
 			success: function(responseData, textStatus, jqXHR) {
 				if(responseData.code === 0){
 					$("#subscribe-form :input").prop("disabled", true);
-					replaceMessage("You've been added to our list, check your mail to confirm this");
+					replaceMessage("You've been added, thanks. Check your mail to confirm. Don't see it, check your SPAM folder just in case.");
 				}
 			},
 			error: function (responseData, textStatus, errorThrown) {
