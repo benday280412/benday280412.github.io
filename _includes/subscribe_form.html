@@ -1,4 +1,4 @@
-<div id="subscriber-div">
+<div class="subscriber">
 	<h3 class="title-message">{{ include.title }}</h3>
 	<form id="subscribe-form" data-abide novalidate>
 	  <div class="grid-container">
@@ -21,7 +21,7 @@
 	      </div>
 				<div class="medium-2 small-12 cell">
 					<input type="hidden" name="campaign_token" value="{{ include.campaign_token }}" />
-					<input  class="button expanded" type="submit" value="Subscribe"/>
+					<input class="button expanded" type="submit" value="{{ include.submit-label }}" />
 				</div>
 				<div class="medium-12 cell">
 					<div id="message" />

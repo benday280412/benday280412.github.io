@@ -1,11 +1,15 @@
-#subscriber-div {
-  #subscribe-form {
+.subscriber {
+  form {
     #message {
       text-align: center;
     }
   }
-  
+
   .title-message {
     text-align: center;
   }
+}
+
+.subscriber-big {
+  border:5px dashed #000;
 }
