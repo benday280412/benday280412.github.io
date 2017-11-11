@@ -6,7 +6,7 @@ categories:
 - blog
 - life-insurance
 - US
-description: A look at Life Insurance rate sin the US and why more people don't have cover
+description: A look at Life Insurance rates in the US and why more people don't have cover
 comments: true
 form-type: download_big_form
 form-title: Do You Know Your Accumulation Period from Your Annuity Income?
