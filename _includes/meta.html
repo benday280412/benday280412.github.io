@@ -14,10 +14,12 @@
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
     {% if page.share-image %}
-    <meta property="og:image" content="{{ page.share-image }}" />
-    <meta property="twitter:image" content="{{ page.share-image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.share-image }}" />
+    <meta property="twitter:image" content="{{ site.url }}{{ page.share-image }}" />
     {% endif %}
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
