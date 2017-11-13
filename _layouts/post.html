@@ -37,6 +37,15 @@ layout: default
     form-success-include=page.form-success-include
     campaign_token=page.campaign-token
     %}
+{% elsif page.form-type == "direct_with_sub_option" %}
+  {% include direct_with_sub_option.html
+    form-title=page.form-title
+    form-subtitle=page.form-subtitle
+    form-image=page.form-image
+    form-submit-label=page.form-submit-label
+    form-success-include=page.form-success-include
+    campaign_token=page.campaign-token
+    %}
 {% endif %}
 
 {% include disqus.html %}
